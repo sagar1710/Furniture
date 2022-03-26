@@ -1,14 +1,14 @@
 import React from "react";
-import { GiIceCube } from "react-icons/gi";
+import { BsTable } from "react-icons/bs";
 const Logo = () => {
-  return (
-    <>
-      <span> Cubix </span>
-      <span className="icon is-medium">
-        <GiIceCube />
-      </span>
-    </>
-  );
+	return (
+		<>
+			<span> Neha Furniture</span>
+			<span className="icon is-medium">
+				<BsTable />
+			</span>
+		</>
+	);
 };
 
 export default Logo;
